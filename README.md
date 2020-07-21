@@ -4,8 +4,10 @@ Aplicación web sobre una tienda de Cereales que vende al por mayor. Es el prime
 ## Índice
 1. [Introducción](#INTRO)
 2. [Tecnologías](#TEC)
-3. [Arrancar el proyecto en local](#LOCAL)
-4. [Url de la web](#URL)
+3. [Url de la web](#URL)
+4. [Arrancar el proyecto en local](#LOCAL)
+5. [Datos de prueba](#DATOS)
+
 
 ## Introducción<a name ="INTRO"></a>
 Este proyecto es una app web de una tienda de cereales que vende al por mayor a otras empresas.
@@ -26,6 +28,9 @@ Las cantidades de compra son un poco diferente a lo normal. En ese tipo de empre
 5. Spring Security
 
 
+## ¿Puedo probar el proyecto sin desplegarlo?<a name ="URL"></a>
+Sí. Actualmente, está desplegado en los servidores de Heroku y puedes acceder a la app web a través del siguiente [link](https://cereales-pp.herokuapp.com/).
+
 ## Arrancar el proyecto en local<a name ="LOCAL"></a>
 
 Haga un Maven install, y después ejecute el siguiente comando en la carpeta \target del proyecto:
@@ -37,6 +42,15 @@ Finalmente, la web se visualizará en: localhost:9000.
 
 Además, el proyecto contiene un archivo de texto con una pequeña base de datos para poder probar la app.
 
-## ¿Puedo probar el proyecto sin desplegarlo?<a name ="URL"></a>
-Sí. Actualmente, está desplegado en los servidores de Heroku y puedes acceder a la app web a través del siguiente [link](https://cereales-pp.herokuapp.com/).
+## Datos de prueba<a name ="DATOS"></a>
+Para probar la parte de administrador utilice las siguientes credenciales:
+```
+username: admin@admin.com
+pass: admin
+```
 
+Para probar como usuario, puede utilizar la siguiente, o bien, buscar algún otro usuario del archivo data.sql incluido en el proyecto.
+```
+username: usuario@usuario.com
+pass: 1234
+```
